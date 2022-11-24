@@ -29,3 +29,12 @@ Answer:
 |util|https://www.w3schools.com/nodejs/ref_util.asp|
 |vm| https://www.w3schools.com/nodejs/ref_vm.asp|
 |zlib| https://www.w3schools.com/nodejs/ref_zlib.asp|
+
+
+- ### who is the founder of nodeJs?
+Answer: Ryan Dahl
+- ### When nodeJs was founded?
+Answer: 2009
+- ### When a javaScript function is invoked (called) in Node, where is a new frame placed?
+Answer: In callstack. 
+ref: https://www.javascripttutorial.net/javascript-call-stack/#:~:text=If%20a%20function%20calls%20another,top%20of%20the%20call%20stack.
