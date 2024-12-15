@@ -16,6 +16,27 @@ The last function added to the stack is the first one to be executed and removed
 The event loop in JavaScript is a mechanism that enables asynchronous operations by managing the execution of code, collecting and processing events, and running queued tasks. 
 It is part of the JavaScript runtime and plays a key role in ensuring non-blocking execution in a single-threaded environment.
 
+**What is memo in ReactJs?**
+
+In React, memo is a higher-order component (HOC) used to optimize the performance of functional components by preventing unnecessary re-renders. 
+It works by memorizing the rendered output of a component and only re-rendering it if its props change.
+
+**What is the difference between memo and useMemo in React?**
+
+The main difference between React.memo and useMemo lies in their purpose and application:
+
+**React.memo:**
+- Used to memoize a functional component to prevent unnecessary re-renders.
+- Works at the component level by comparing the previous and next props.
+- Applicable when you want to optimize re-renders of child components.
+
+**useMemo:**
+
+- Used to memoize the result of a function or computation within a functional component.
+- Works at the value level to avoid recomputing expensive calculations or re-creating objects unless dependencies change.
+- Helps optimize computations inside a component, not the component itself.
+
+
 **What is Apache Kafka?**
 
 Apache Kafka is an open-source, distributed event streaming platform designed to handle real-time data feeds with high throughput and low latency. 
@@ -39,4 +60,4 @@ Kafka servers that store and manage data. A Kafka cluster consists of multiple b
 
 **What is offset and partition in kafka**
 
-Each topic is split into partitions. Each message in a partition has a unique offset, which acts as a sequence identifier
+Each topic is split into partitions. Each message in a partition has a unique offset, which acts as a sequence identifier.
