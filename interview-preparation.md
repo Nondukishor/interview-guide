@@ -58,6 +58,14 @@ Applications that subscribe to (read) messages from Kafka topics.
 
 Kafka servers that store and manage data. A Kafka cluster consists of multiple brokers.
 
+
 **What is offset and partition in kafka**
 
 Each topic is split into partitions. Each message in a partition has a unique offset, which acts as a sequence identifier.
+
+**What Vertical Scaling?**
+
+Vertical scaling, also known as scaling up, involves upgrading the existing hardware or resources of a single machine to handle more load. This could mean increasing the server's CPU, RAM, storage, or network capacity.
+
+**What is horizontal Scaling?**
+Horizontal scaling, also known as scaling out, involves adding more machines or nodes to a system to distribute the load. This means increasing the number of servers or instances to handle more traffic or data.
