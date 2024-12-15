@@ -17,20 +17,26 @@ The event loop in JavaScript is a mechanism that enables asynchronous operations
 It is part of the JavaScript runtime and plays a key role in ensuring non-blocking execution in a single-threaded environment.
 
 **What is Apache Kafka?**
+
 Apache Kafka is an open-source, distributed event streaming platform designed to handle real-time data feeds with high throughput and low latency. 
 It is widely used for building real-time data pipelines, event-driven applications, and stream processing systems.
 
 **What Topic in Apache Kafka?**
+
 Messages are categorized into topics. A topic is a logical channel to which producers write and from which consumers read. Topics are divided into partitions for parallel processing
 
 **What is producers in kafka?**
+
 Applications that publish (write) messages to Kafka topics.
 
 **What is Consumers in Apache Kafka?**
+
 Applications that subscribe to (read) messages from Kafka topics.
 
 **What is broker in kafka?**
+
 Kafka servers that store and manage data. A Kafka cluster consists of multiple brokers.
 
 **What is offset and partition in kafka**
+
 Each topic is split into partitions. Each message in a partition has a unique offset, which acts as a sequence identifier
