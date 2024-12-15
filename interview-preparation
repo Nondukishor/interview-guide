@@ -1,6 +1,11 @@
 ***Introduction***
-My name is Nipu Chakraborty. I completed my gration & Diploma on CSE. at present I'm working in software company as a backend tech lead. 
-I have 6 year professional experience in web development sector. In this jurney I worked with some amazing applications and they are OTT platfrom, e-commerce and CMS sass. 
-I always love to work with some new and creative idea wich give me pleasure.
+I’m Nipu Chakraborty, a graduate and diploma holder in Computer Science and Engineering (CSE). Currently, I work as a Backend Tech Lead at a software company.
+With 6 years of experience in web development, I’ve contributed to exciting projects like OTT platforms, e-commerce systems, and CMS SaaS applications.
+I thrive on exploring innovative and creative ideas that make my work both meaningful and enjoyable.
 
 
+What is call stack in javascript?
+
+The call stack in JavaScript is a data structure that keeps track of function calls in the order they are executed, serving as the mechanism JavaScript uses to manage execution context. 
+It is part of the JavaScript engine and plays a crucial role in function invocation and execution.The call stack operates on the Last In, First Out (LIFO) principle. 
+The last function added to the stack is the first one to be executed and removed.
